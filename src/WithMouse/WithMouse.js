@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState} from './node_modules/react';
 
 const WithMouse = (Component) => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
