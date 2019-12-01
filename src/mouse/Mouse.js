@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const Mouse = props => {
+const Mouse = props => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   const handleMousePosition = e => {
@@ -20,3 +20,5 @@ export const Mouse = props => {
     </div>
   );
 };
+
+export default Mouse;
